@@ -14,9 +14,6 @@ Please download images into a folder named `images` under the root directory `da
 --seed', default=22, type=int, help='random seed number'
 --batch-size', default=16, type=int, help='number of samples per batch'
 --lr', default=0.001, type=float, help='learning rate'
---momentum', default=0.9, type=float, help='momentum rate'
---step-size', default=5, type=int, help='step size for schedular'
---gamma', default=0.1, type=float, help='gamma value for schedular'
 --persuasive-label-threshold', default=0.6, type=float, help='threshold to categorize persuasive labels'
 --kfold', default=5, help='number of fold validation'
 --img-model', default=0, choices=[0,1,2], type=int, help='0:Resnet50; 1:Resnet101; 2:VGG16'
@@ -32,9 +29,6 @@ python main_image.py \
   --exp-mode=0 \
   --data-mode=1 \
   --lr=0.001  \
-  --momentum=0.9 \
-  --step-size=5 \
-  --gamma=0.1 \
   --img-model=0 \
   --persuasive-label-threshold=0.5 \
   --save-checkpoint=0 \
@@ -48,9 +42,6 @@ python main_text.py \
   --exp-mode=0 \
   --data-mode=0 \
   --lr=0.001  \
-  --momentum=0.9 \
-  --step-size=5 \
-  --gamma=0.1 \
   --img-model=0 \
   --persuasive-label-threshold=0.5 \
   --save-checkpoint=0 \
@@ -64,9 +55,6 @@ python main_multimodality.py \
   --exp-mode=0 \
   --data-mode=2 \
   --lr=0.001  \
-  --momentum=0.9 \
-  --step-size=5 \
-  --gamma=0.1 \
   --img-model=0 \
   --persuasive-label-threshold=0.5 \
   --save-checkpoint=0 \
