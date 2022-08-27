@@ -378,7 +378,6 @@ if __name__ == '__main__':
         criterion = nn.BCEWithLogitsLoss()
 
     init_optimizer = optim.Adam(init_model.parameters(), lr=args.lr)
-    # init_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
 
     # results
     f1_list = []
