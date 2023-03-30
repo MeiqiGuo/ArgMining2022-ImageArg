@@ -1,6 +1,6 @@
 # ArgMining2022-ImageArg
 
-Repo for our paper: [ImageArg: A Multi-modal Tweet Dataset for Image Persuasiveness Mining](https://arxiv.org/pdf/2209.06416.pdf)
+Repo for our paper: [ImageArg: A Multi-modal Tweet Dataset for Image Persuasiveness Mining](https://aclanthology.org/2022.argmining-1.pdf#page=13)
 
 ## Run experiments
 Please download tweet content using [TwitterAPI](https://developer.twitter.com/en/docs/twitter-api) into the root directory `data` before run the experiments. The following parameters need to config to run specific experiments. Please check the code for details.
