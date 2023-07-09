@@ -62,3 +62,23 @@ python main_multimodality.py \
   --skip-non-persuasion-mode=1
 ```
 
+## Citation
+
+If you make use of this code, please kindly cite our paper:
+```
+@inproceedings{liu-etal-2022-imagearg,
+    title = "{I}mage{A}rg: A Multi-modal Tweet Dataset for Image Persuasiveness Mining",
+    author = "Liu, Zhexiong  and
+      Guo, Meiqi  and
+      Dai, Yue  and
+      Litman, Diane",
+    booktitle = "Proceedings of the 9th Workshop on Argument Mining",
+    month = oct,
+    year = "2022",
+    address = "Online and in Gyeongju, Republic of Korea",
+    publisher = "International Conference on Computational Linguistics",
+    url = "https://aclanthology.org/2022.argmining-1.1",
+    pages = "1--18",
+    abstract = "The growing interest in developing corpora of persuasive texts has promoted applications in automated systems, e.g., debating and essay scoring systems; however, there is little prior work mining image persuasiveness from an argumentative perspective. To expand persuasiveness mining into a multi-modal realm, we present a multi-modal dataset, ImageArg, consisting of annotations of image persuasiveness in tweets. The annotations are based on a persuasion taxonomy we developed to explore image functionalities and the means of persuasion. We benchmark image persuasiveness tasks on ImageArg using widely-used multi-modal learning methods. The experimental results show that our dataset offers a useful resource for this rich and challenging topic, and there is ample room for modeling improvement.",
+}
+```
